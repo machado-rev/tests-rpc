@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node index.js",
-    "build": "tsc index.ts"
+    "build": "rm index.js && tsc index.ts"
   },
   "repository": {
     "type": "git",
