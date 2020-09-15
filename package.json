@@ -1,0 +1,29 @@
+{
+  "name": "tests-rpc",
+  "version": "0.0.1",
+  "description": "Tests to use case for Althash",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "build": "tsc index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/machado-rev/tests-rpc.git"
+  },
+  "keywords": [
+    "Althash",
+    "Htmlcoin",
+    "Tests"
+  ],
+  "author": "Leandro Machado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/machado-rev/tests-rpc/issues"
+  },
+  "dependencies": {
+    "@types/node": "^14.10.1",
+    "althashd-rpc": "0.1.1"
+  },
+  "homepage": "https://github.com/machado-rev/tests-rpc#readme"
+}
